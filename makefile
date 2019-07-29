@@ -3,10 +3,10 @@
 all: build push deploy
 
 build:
-	docker build -t pogasanov/myproject:latest -f config/myhome/Dockerfile .
+	docker build -t andilabs/myproject:latest -f config/app/Dockerfile .
 
 push:
-	docker push pogasanov/myproject:latest
+	docker push andilabs/myproject:latest
 
 deploy:
 	eb deploy

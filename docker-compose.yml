@@ -1,6 +1,7 @@
 version: '3'
 
 services:
+  # this comment added on my latoptop just to test deploy to linode via SFTP
   db:
     image: postgres
     hostname: db
